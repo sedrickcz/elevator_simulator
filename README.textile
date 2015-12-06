@@ -1,0 +1,20 @@
+h1. Elevator Simulator
+
+Simple elevator simulator with these features:
+  * Can change direction
+  * Can accept a floor number
+  * Can move to that floor
+  * Can mantain a list of floor numbers
+  * Can move through the floors
+  
+
+h2. Run
+
+bc.. ruby init.rb
+
+
+h2. Tests
+
+p. Using RSpec as a testing framework. Tests are in tests directory
+
+bc.. rspec elevator_spec.rb
